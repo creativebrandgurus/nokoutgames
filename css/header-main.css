@@ -1558,6 +1558,7 @@ th {
 /*!
 Animate.css - http://daneden.me/animate
 Licensed under the MIT license - http://opensource.org/licenses/MIT
+
 Copyright (c) 2014 Daniel Eden
 */
 .animated {
@@ -5117,7 +5118,7 @@ img {
     }
 
     abbr[title]:after {
-        content: " ("attr(title); ")"
+        content: " ("attr(title) ")"
     }
 
     a[href^="#"]:after,
@@ -6573,7 +6574,7 @@ p a:hover {
 .columns-block__container {
     margin-right: auto;
     margin-left: auto;
-    padding-left: 5px;
+    padding-left: 15px;
     padding-right: 15px;
     width: 100%;
     padding-left: 15px;
@@ -11613,12 +11614,12 @@ p+.btn {
 .nav-bar__logo {
     display: block;
     width: 100%;
-    max-width: 115px;
-    height: 60px;
+    max-width: 285px;
+    height: 95px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right center;
-    background-image: url(../../img/logo-ab-black.png);
+    background-image: url(../../img/test/logo-ab-black.png);
     text-indent: -9990px;
     z-index: 200;
     float: left;
@@ -11628,8 +11629,8 @@ p+.btn {
 
 @media (min-width:992px) {
     .nav-bar__logo {
-        max-width: 70px;
-        height: 90px
+        max-width: 280px;
+        height: 95px
     }
 }
 
@@ -11641,7 +11642,7 @@ p+.btn {
 .js-hero-active .nav-bar__logo,
 .nav-bar__logo--inverted,
 body.nav-open .nav-bar__logo {
-    background-image: url(../../img/logo-ab-white.png)
+    background-image: url(../../img/test/logo-ab-white.png)
 }
 
 .navtoggle {
@@ -13707,7 +13708,8 @@ table th {
     width: 50px;
     height: 35px;
     opacity: 0;
-    background-image: url(../../img/icon-youtube-play.png);
+    background-image: url(../../img/icon-youtube-play
+    );
     background-size: contain;
     background-repeat: no-repeat;
     transition: all .2s cubic-bezier(.19, 1, .22, 1)
